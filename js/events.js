@@ -16,7 +16,13 @@ function getIt() {
   
   function pressIt() {
     $('input#typing').on('keydown', (e) => {
-      e.which === 
+      if (e.which == 71)  alert('G pressed!');
+    });
+  }
+  
+  function submitIt() {
+    $('form').on('submit', (e) => {
+      alert('Your form is going to be submitted now.');
     });
   }
   
