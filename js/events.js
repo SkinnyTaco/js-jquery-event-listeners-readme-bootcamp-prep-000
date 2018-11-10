@@ -15,7 +15,9 @@ function getIt() {
   }
   
   function pressIt() {
-    $('input')
+    $('input#typing').on('keydown', (e) => {
+      e.which === 
+    });
   }
   
 }
