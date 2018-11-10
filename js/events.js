@@ -10,8 +10,12 @@ function getIt() {
   
   function frameIt() {
     $('img').on('load', (e) => {
-      
+      $('img').addClass('tasty');
     });
+  }
+  
+  function pressIt() {
+    
   }
   
 }
