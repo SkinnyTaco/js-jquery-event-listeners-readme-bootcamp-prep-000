@@ -15,7 +15,7 @@ function getIt() {
   }
   
   function pressIt() {
-    
+    $('input')
   }
   
 }
