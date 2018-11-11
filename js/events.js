@@ -1,8 +1,4 @@
 //define functions here
-
-$(document).ready(function(){
-
-// call functions here
 function getIt() {
   $('p').on('click', (e) => {
     alert('Hey!');
@@ -26,6 +22,13 @@ function getIt() {
       alert('Your form is going to be submitted now.');
     });
   }
+$(document).ready(function(){
+
+// call functions here
+getIt();
+frameIt();
+pressIt();
+submitIt();
   
 
 
